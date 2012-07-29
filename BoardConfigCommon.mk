@@ -55,9 +55,6 @@ BOARD_MTP_DEVICE := "/dev/usb_mtp_gadget"
 TARGET_USES_QCOM_LPA := true
 COMMON_GLOBAL_CFLAGS += -DQCOM_TUNNEL_LPA_ENABLED
 
-# Disable MVS audio, it causes robot voice in GTalk
-COMMON_GLOBAL_CFLAGS += -DNO_QCOM_MVS
-
 # Q1 hardware has a rear mic for camcorder
 BOARD_HAVE_BACK_MIC_CAMCORDER := true
 
