@@ -45,6 +45,9 @@ BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 # FIXME: Overlay has an issue on Quincy when playing video in landscape mode
 COMMON_GLOBAL_CFLAGS += -DQCOM_ROTATOR_KERNEL_FORMATS
 
+# FIXME: secure playback currently broken
+COMMON_GLOBAL_CFLAGS += -DQCOM_NO_SECURE_PLAYBACK
+
 # Workaround for glitches while cropping bypass layers
 TARGET_NO_BYPASS_CROPPING := true
 
