@@ -9,6 +9,7 @@ on early-init
     mkdir /mnt/usbdisk 0755 system system
 
     export EXTERNAL_STORAGE /mnt/sdcard
+    export SECONDARY_STORAGE /mnt/external_sd
 
 # Vibetonz
     export VIBE_PIPE_PATH /dev/pipes
