@@ -64,3 +64,5 @@ BOARD_HAVE_BACK_MIC_CAMCORDER := true
 # Disable initlogo, Samsungs framebuffer is weird
 TARGET_NO_INITLOGO := true
 
+# Pretty charger
+BOARD_CHARGER_RES := device/samsung/quincy-common/res/charger
