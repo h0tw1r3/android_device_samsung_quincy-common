@@ -38,7 +38,7 @@ PRODUCT_COPY_FILES += \
     device/samsung/quincy-common/ramdisk/initlogo.rle:root/initlogo.rle \
     device/samsung/quincy-common/ramdisk/ueventd.rc:root/ueventd.rc \
     device/samsung/quincy-common/ramdisk/init.emmc.rc:root/init.emmc.rc \
-    device/samsung/quincy-common/ramdisk/fstab:root/fstab
+    device/samsung/quincy-common/fstab.qcom:root/fstab.qcom
 
 # BT firmware
 PRODUCT_COPY_FILES += \
