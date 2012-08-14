@@ -38,14 +38,14 @@ BOARD_HAS_NO_SELECT_BUTTON := true
 BOARD_USE_CUSTOM_RECOVERY_FONT := \"roboto_15x24.h\"
 
 # Workaround for glitches while cropping bypass layers
-TARGET_NO_BYPASS_CROPPING := true
+# TARGET_NO_BYPASS_CROPPING := true
 
 # MTP
-BOARD_MTP_DEVICE := "/dev/usb_mtp_gadget"
+# BOARD_MTP_DEVICE := "/dev/usb_mtp_gadget"
 
 # Audio
-TARGET_USES_QCOM_LPA := true
-COMMON_GLOBAL_CFLAGS += -DQCOM_TUNNEL_LPA_ENABLED
+# TARGET_USES_QCOM_LPA := true
+# COMMON_GLOBAL_CFLAGS += -DQCOM_TUNNEL_LPA_ENABLED
 
 # Q1 hardware has a rear mic for camcorder
 BOARD_HAVE_BACK_MIC_CAMCORDER := true
