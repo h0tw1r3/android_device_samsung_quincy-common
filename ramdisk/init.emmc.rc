@@ -142,6 +142,22 @@ on emmc-fs
    chown radio system /sys/class/sec/sec_epen/epen_checksum
    chown radio system /sys/class/sec/sec_epen/epen_checksum_result
    chown radio system /sys/class/sec/sec_epen/epen_firm_version
+   chown radio system /sys/class/sec/sec_epen/tilt_offset_x_h0_r0
+   chown radio system /sys/class/sec/sec_epen/tilt_offset_x_h0_r1
+   chown radio system /sys/class/sec/sec_epen/tilt_offset_x_h0_r2
+   chown radio system /sys/class/sec/sec_epen/tilt_offset_x_h0_r3
+   chown radio system /sys/class/sec/sec_epen/tilt_offset_y_h0_r0
+   chown radio system /sys/class/sec/sec_epen/tilt_offset_y_h0_r1
+   chown radio system /sys/class/sec/sec_epen/tilt_offset_y_h0_r2
+   chown radio system /sys/class/sec/sec_epen/tilt_offset_y_h0_r3
+   chown radio system /sys/class/sec/sec_epen/tilt_offset_x_h1_r0
+   chown radio system /sys/class/sec/sec_epen/tilt_offset_x_h1_r1
+   chown radio system /sys/class/sec/sec_epen/tilt_offset_x_h1_r2
+   chown radio system /sys/class/sec/sec_epen/tilt_offset_x_h1_r3
+   chown radio system /sys/class/sec/sec_epen/tilt_offset_y_h1_r0
+   chown radio system /sys/class/sec/sec_epen/tilt_offset_y_h1_r1
+   chown radio system /sys/class/sec/sec_epen/tilt_offset_y_h1_r2
+   chown radio system /sys/class/sec/sec_epen/tilt_offset_y_h1_r3
 
    chown radio system /sys/devices/platform/android_usb/UsbMenuSel
    chown radio system /sys/devices/platform/android_usb/tethering
