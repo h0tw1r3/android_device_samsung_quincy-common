@@ -9,6 +9,7 @@ on early-init
     symlink /storage/sdcard0 /sdcard
     symlink /storage/sdcard1 /mnt/external_sd
     symlink /storage/sdcard1 /external_sd
+    symlink /storage/usbdisk0 /mnt/usbdisk
 
     export EXTERNAL_STORAGE /storage/sdcard0
     export SECONDARY_STORAGE /storage/sdcard1
@@ -283,12 +284,12 @@ service ril-daemon /system/bin/rild
     socket rild stream 660 root radio
     socket rild-debug stream 660 radio system
     user root
-    group radio cache inet misc audio sdcard_rw qcom_oncrpc diag log
+    group radio cache inet misc audio sdcard_rw qcom_oncrpc qcom_diag log
 
 service secril-daemon /system/bin/sec-ril
     class main
     user root
-    group radio cache inet misc audio sdcard_rw diag log
+    group radio cache inet misc audio sdcard_rw qcom_diag log
 
 # for datarouter
 #service DR-daemon /system/bin/drexe
